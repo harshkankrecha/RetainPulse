@@ -1,4 +1,3 @@
-# Title
 ## Customer Analysis using Random Forest
 
 ## Problem
