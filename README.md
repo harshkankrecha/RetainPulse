@@ -18,4 +18,5 @@ The model was validated using a 5-fold cross-validation strategy, ensuring that 
 
 ### Results
 Mean Accuracy: ~80%
+
 Standard Deviation: 1.34%
