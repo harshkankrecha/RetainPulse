@@ -1,21 +1,21 @@
-## Customer Analysis using Random Forest
+## RetainPulse: High-Performance Churn Classification
+### 📝 Project Overview
+RetainPulse is a predictive engine designed to identify high-risk customer churn within the Telco sector. Moving beyond simple heuristics, this project implements a Random Forest architecture optimized for high-precision classification on the IBM Telco Dataset.
 
-## Problem
-Predict which customers are likely to leave
+### 🛠️ The Engineering Pipeline
+The project follows a rigorous pre-production workflow to ensure model stability and feature integrity:
 
-## Dataset
-Telco Customer Churn Dataset
+Automated Preprocessing: Custom pipeline for handling missing values, One-Hot Encoding for multi-class features, and Label Encoding for binary targets.
 
-## Approach
-Data preprocessing (Handled Missing Values, One-Hot Encoding, Label Encoding, Feature Scaling)
+Feature Scaling: Applied StandardScaler to ensure uniform distribution across numerical features like Tenure and MonthlyCharges.
 
-Model: Random Forest
+Optimization: Leveraged GridSearchCV for exhaustive hyperparameter tuning (n_estimators, max_depth, min_samples_split).
 
-Hyperparameter tuning using GridSearchCV
+Robustness Testing: Implemented Stratified K-Fold Cross-Validation to validate model generalization across unseen data segments.
 
-K-Fold Cross Validation
+### 📊 Performance Metrics
+The model was validated using a 5-fold cross-validation strategy, ensuring that accuracy is not just high, but stable.
 
-## Results
-Accuracy: ~80%
-
+### Results
+Mean Accuracy: ~80%
 Standard Deviation: 1.34%
