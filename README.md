@@ -14,7 +14,7 @@ The project follows a rigorous pre-production workflow to ensure model stability
 **Robustness Testing**: Implemented Stratified K-Fold Cross-Validation to validate model generalization across unseen data segments.
 
 ### 📊 Performance Metrics
-The model was validated using a 5-fold cross-validation strategy, ensuring that accuracy is not just high, but stable.
+The model was validated using a 10-fold cross-validation strategy, ensuring that accuracy is not just high, but stable.
 
 ### Results
 Mean Accuracy: ~80%
